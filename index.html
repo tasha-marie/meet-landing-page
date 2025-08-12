@@ -15,21 +15,45 @@
     <title>Frontend Mentor | Meet landing page</title>
   </head>
   <body>
-    <header>
+    <nav>
       <img src="./assets/logo.svg" alt="Meet logo" class="logo" />
+    </nav>
+    <header class="hero-section">
+      <!-- Tablet/mobile hero image -->
+      <picture class="hero-section__tablet-img">
+        <source
+          srcset="./assets/tablet/image-hero.png"
+          media="(max-width: 1023px)"
+        />
+        <img alt="group of smiling users" />
+      </picture>
+      <!--Desktop left hero image-->
+      <picture class="hero-section__desktop-img hero-section__desktop-img-left">
+        <source
+          srcset="./assets/desktop/image-hero-left.png"
+          media="(min-width: 1024px)"
+        />
+         <img alt="group of smiling users" />
+      </picture>
+      <h1>Group Chat for Everyone</h1>
+      <p>
+        Meet makes it easy to connect with others face-to-face virtually and
+        collaborate across any device.
+      </p>
+      <button>Download v1.3</button>
+      <button>What is it?</button>
+      <!--Desktop right hero image-->
+      <picture
+        class="hero-section__desktop-img hero-section__desktop-img-right"
+      >
+        <source
+          srcset="./assets/desktop/hero-image-right"
+          media="(min-width: 1024px)"
+        />
+         <img alt="group of smiling users" />
+      </picture>
     </header>
     <main>
-      <section class="hero">
-        <img src="./assets/desktop/image-hero-left.png" alt="hero left image" class="hero-left" />
-        <h1>Group Chat for Everyone</h1>
-        <p>
-          Meet makes it easy to connect with others face-to-face virtually and
-          collaborate across any device.
-        </p>
-        <button>Download v1.3</button>
-        <button>What is it?</button>
-        <img src="./assets/desktop/image-hero-right.png" alt="hero right image" class="hero-right" />
-      </section>
       <section>
         <p>01</p>
         <img
