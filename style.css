@@ -130,13 +130,13 @@
     font-size: var(--heading-font-size, var(--fs-heading));
     line-height: var(--lh-heading);
     font-weight: 700;
-  }
 
-  span {
-    display: var(--heading-span-display, block);
-    color: var(--heading-span-color, var(--cyan-600));
-    font-size: var(--heading-span-font-size, inherit);
-    font-style: var(--heading-span-style);
-    text-transform: uppercase;
+    span {
+      display: var(--heading-span-display, block);
+      color: var(--heading-span-color, var(--cyan-600));
+      font-size: var(--heading-span-font-size, inherit);
+      font-style: var(--heading-span-style);
+      text-transform: uppercase;
+    }
   }
 }

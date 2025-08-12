@@ -35,13 +35,17 @@
         />
          <img alt="group of smiling users" />
       </picture>
-      <h1>Group Chat for Everyone</h1>
-      <p>
-        Meet makes it easy to connect with others face-to-face virtually and
-        collaborate across any device.
-      </p>
-      <button>Download v1.3</button>
-      <button>What is it?</button>
+      <div class="hero-section__content">
+        <h1>Group Chat for Everyone</h1>
+        <p>
+          Meet makes it easy to connect with others face-to-face virtually and
+          collaborate across any device.
+        </p>
+      </div>
+      <div class="hero-section__buttons">
+        <button class="button-cyan">Download <span>v1.3</span></button>
+        <button class="button-purple">What is it?</button>
+      </div>
       <!--Desktop right hero image-->
       <picture
         class="hero-section__desktop-img hero-section__desktop-img-right"
@@ -53,9 +57,9 @@
          <img alt="group of smiling users" />
       </picture>
     </header>
-    <main>
-      <section>
-        <p>01</p>
+    <main class="main-content">
+      <section class="meetings-section">
+        <div class="number"><span>01</span></div>
         <img
           src="./assets/desktop/image-woman-in-videocall.jpg"
           alt="smiling woman sitting at a table with her laptop on a video call"
@@ -76,24 +80,28 @@
           alt="black man sitting on a gold colored couch holding his phone like he is texting"
           class="texting"
         />
-        <h2>
-          <span>Built for modern use</span>
-          Smarter meetings, all in one place
-        </h2>
-        <p>
-          Send messages, share files, show your screen, and record your meetings
-          — all in one workspace. Control who can join with invite-only team
-          access, data encryption, and data export.
-        </p>
+        <div class="meeting-section-content">
+          <h2>
+            <span>Built for modern use</span>
+            Smarter meetings, all in one place
+          </h2>
+          <p>
+            Send messages, share files, show your screen, and record your meetings
+            — all in one workspace. Control who can join with invite-only team
+            access, data encryption, and data export.
+          </p>
+        </div>
       </section>
-      <footer>
-        <p>02</p>
-        <h2>Experience more together</h2>
-        <p>
-          Stay connected with reliable HD meetings and unlimited one-on-one and
-          group video sessions.
-        </p>
-        <button>Download v1.3</button>
+      <footer class="footer-cta">
+        <div class="number"><span>02</span></div>
+        <div class="footer-cta-content">
+          <h2>Experience more together</h2>
+          <p>
+            Stay connected with reliable HD meetings and unlimited one-on-one and
+            group video sessions.
+          </p>
+        </div>
+        <button class="button-purple">Download <span>v1.3</span></button>
       </footer>
     </main>
   </body>
